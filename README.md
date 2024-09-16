@@ -1,70 +1,98 @@
-# Getting Started with Create React App
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+# NewsMonkey App ~ (V1) 
 
-## Available Scripts
+A React-based news aggregator that provides real-time news updates from around the world.
 
-In the project directory, you can run:
+(The application was created using React Class Component architecture)
+## Badges
 
-### `npm start`
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
 
-### `npm test`
+[![Licence](https://img.shields.io/github/license/Ileriayo/markdown-badges?style=for-the-badge)](./LICENSE)
+![React](https://img.shields.io/badge/react-%2320232a.svg?style=for-the-badge&logo=react&logoColor=%2361DAFB)
+![Bootstrap](https://img.shields.io/badge/bootstrap-%238511FA.svg?style=for-the-badge&logo=bootstrap&logoColor=white)
+## Credits
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+I would like to express my gratitude to the following resources that made this project possible:
 
-### `npm run build`
+- **[Code With Harry](https://www.youtube.com/@CodeWithHarry)**: For providing an in-depth tutorial series, for the development of this project.
+- **[News API](https://newsapi.org/)**: For supplying real-time data and making it possible to deliver accurate and up-to-date news content.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
 
-### `npm run eject`
+## Features
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+- Infinite scrolling for smooth user experience
+- API integration with real-time news updates
+- Top page progress bar
+- Category-based filtering
+- Responsive design for mobile and desktop
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+## Screenshots
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
+1. 
+![alt text](https://github.com/siddharth-ruria/newsmonkey-v2---REACT.js/blob/main/public/screenshots/two.png?raw=true)
 
-## Learn More
+#
+2.
+![alt text](https://github.com/siddharth-ruria/newsmonkey-v2---REACT.js/blob/main/public/screenshots/one.png?raw=true)
 
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
+#
+3.
+![alt text](https://github.com/siddharth-ruria/newsmonkey-v2---REACT.js/blob/main/public/screenshots/three.png?raw=true)
+## Environment Variables
 
-To learn React, check out the [React documentation](https://reactjs.org/).
+To run this project, you will need to add the following environment variables to your .env file
 
-### Code Splitting
+`REACT_APP_NEWS_API`
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
 
-### Analyzing the Bundle Size
+## Installation and Usage
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
+### a. How to Clone to Local Machine
 
-### Making a Progressive Web App
+1. Clone the repo:
+   ```bash
+   git clone https://github.com/siddharth-ruria/newsmonkey-v1---REACT.js.git
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
+2. Navigate to the project directory:
+   ```bash
+   cd newsmonkey-v1---REACT.js
+   ```
 
-### Advanced Configuration
+3. Install dependencies:
+   ```bash
+   npm i
+   ```
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
+4. Start the app:
+   ```bash
+   npm start
+   ```
 
-### Deployment
+### b. Usage Instructions
+1. Before running the project, go to https://newsapi.org/ and create an account after which you will get an API key.
+2. Insert the API key in ``` .env.local ``` which you have to create in the repo like this: 
+in .env.local file:
+   ```bash
+   REACT_APP_NEWS_API='your_api_key_goes_here'
+   ```
+3. Now run ``` npm start ``` in the terminal (navigate to the repo first obviously :)
+1. After running the app, navigate to the homepage.
+2. Select a news category from the navigation bar to filter the articles.
+3. Scroll down to load more articles thanks to infinite scrolling.
+4. Click on 'read more' to read the complete news.
+## Feedback
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
+If you have any feedback, please reach out to me at siddharthruria10@gmail.com
 
-### `npm run build` fails to minify
+Thank You.
+## 🔗 Links
+[![linkedin](https://img.shields.io/badge/linkedin-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white)](https://www.linkedin.com/in/ruria-siddharth/)
+[![X](https://img.shields.io/badge/X-%23000000.svg?style=for-the-badge&logo=X&logoColor=white)](https://x.com/ruriaxcodes)
 
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+
