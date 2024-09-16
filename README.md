@@ -76,16 +76,17 @@ To run this project, you will need to add the following environment variables to
 
 ### b. Usage Instructions
 1. Before running the project, go to https://newsapi.org/ and create an account after which you will get an API key.
-2. Insert the API key in ``` .env.local ``` which you have to create in the repo like this: 
+2. Insert the API key in ``` .env.local ``` which you have to create in the repo like this:
+#
 in .env.local file:
    ```bash
    REACT_APP_NEWS_API='your_api_key_goes_here'
    ```
-3. Now run ``` npm start ``` in the terminal (navigate to the repo first obviously :)
-1. After running the app, navigate to the homepage.
-2. Select a news category from the navigation bar to filter the articles.
-3. Scroll down to load more articles thanks to infinite scrolling.
-4. Click on 'read more' to read the complete news.
+4. Now run ``` npm start ``` in the terminal (navigate to the repo first obviously :)
+5. After running the app, navigate to the homepage.
+6. Select a news category from the navigation bar to filter the articles.
+7. Scroll down to load more articles thanks to infinite scrolling.
+8. Click on 'read more' to read the complete news.
 ## Feedback
 
 If you have any feedback, please reach out to me at siddharthruria10@gmail.com
