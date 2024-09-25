@@ -56,12 +56,12 @@ To run this project, you will need to add the following environment variables to
 
 1. Clone the repo:
    ```bash
-   git clone https://github.com/siddharth-ruria/newsmonkey-v1---REACT.js.git
+   git clone https://github.com/siddharthruria/1.newsmonkey-v1---REACT.js.git
    ```
 
 2. Navigate to the project directory:
    ```bash
-   cd newsmonkey-v1---REACT.js
+   cd 1.newsmonkey-v1---REACT.js
    ```
 
 3. Install dependencies:
